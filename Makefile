@@ -8,8 +8,8 @@ OBJS_SBONUS = $(SERVER_BONUS_SRC:.c=.o)
 OBJS_CBONUS = $(CLIENT_BONUS_SRC:.c=.o)
 
 
-NAME_SBONUS = server_bonus
-NAME_CBONUS = clientbonus
+NAME_SBONUS = serve
+NAME_CBONUS = client
 
 all: $(NAME_SBONUS) $(NAME_CBONUS)
 
